@@ -2,7 +2,12 @@ body {
   font-family: 'Indie Flower', cursive;
 }
 
-.clock{
+.root {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clock {
   width: 300px;
   border: 10px dotted blue;
   background-color: red;
@@ -57,4 +62,11 @@ body {
 .tabs article {
   padding-bottom: 25px;
   color: white;
+}
+
+.weather {
+  width: 300px;
+  height: 150px;
+  background-color: orange;
+  border: 10px dotted blue;
 }
